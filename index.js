@@ -36,8 +36,13 @@ console.log(celular)
 // -Imprimir todas las llaves del hash almacenado en la variable celular con su respectivo valor. Ayuda : Una forma de recorrer las propiedades de un objeto es utilizando Object.keys:
 //con Object.keys() imprimo solo los valores
 console.log(Object.keys(celular))
-//con Object.entires() imprimo ambas cosas como objeto no como lista
-console.log(Object.entries(celular))
+for(x in c=Object.keys(celular) ){
+    let value =celular
+    console.log("la clave es ",c[x], " y el valor es: ", celular[c[x]])
+}
+
+
+
 
 
 //AREGLOS
